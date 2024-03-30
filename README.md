@@ -35,43 +35,6 @@ This will start the React development server.
 Access the application:
 Once both the backend and frontend servers are running, you can access the application by navigating to http://localhost:3000 in your web browser.
 
-Project Structure
-The project structure is organized as follows:
-
-project_folder/
-│
-├── frontend/             # Frontend (React) code
-│   ├── public/         # Public assets
-│   └── src/            # React application source code
-│       ├── components/ # Reusable components
-│       |    |──Card.js
-|       |    |──Carousel.js
-|       |    |──footer.js
-|       |    └──Navbar.js
-|       |── routes/
-|       |   |──Cart.js
-|       |   |──ContextReducer.js
-|       |   |──Home.js
-|       |   |──Login.js
-|       |   |──MyOrder.js
-|       |   └──Signup.js
-│       ├── App.js      # Main React component
-│       └── index.js    # Entry point for React application
-│
-├── backend/             # Backend (Node.js) code
-│   ├── models/          # Data models
-|   |   |── Orders.js
-|   |   └── User.js
-│   ├── routes/          # API routes
-|   |   |── CreateUser.js
-|   |   |── DisplayData.js
-|   |   └── OrderData.js
-│   ├── db.js            # Database connection 
-│   └── index.js         # Entry point for Node.js server
-│
-├── package.json        # Node.js dependencies and scripts
-└── README.md           # Project README file
-
 Website View
 -------------
 Home Page (without login)
